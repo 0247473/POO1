@@ -22,8 +22,6 @@ class Empleado:
     def __repr__(self):
       return "("+ str(self.nombre)+ "," + str(self.salario) + ")"
 
-
-
 class Gerente:
     def __init__(self, nombre, puesto, antiguedad):
       self.nombre= nombre
@@ -34,7 +32,7 @@ class Gerente:
     
     def salario(self, extra):
        self.extra = extra
-       self.extra = Empleado.self.extra
+       
       
 class Secretaria:
     def __init__(Empleado):
