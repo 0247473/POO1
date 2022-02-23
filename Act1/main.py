@@ -8,6 +8,7 @@ class Empleado:
       self.nombre= nombre
       self.puesto= puesto
       self.antiguedad= antiguedad
+      self.extra = 345
       if puesto == "Gerente":
         self.salario = 50000
       if puesto == "Secretaria":
@@ -16,7 +17,7 @@ class Empleado:
         self.salario = 25000
       if puesto != "Gerente":
        if antiguedad >= 1:
-        self.salario = self.salario + (1000*self.antiguedad) 
+        self.salario = self.salario + (1000*self.antiguedad) + self.extra 
     def __repr__(self):
       return "("+ str(self.nombre)+ "," + str(self.salario) + ")"
 
