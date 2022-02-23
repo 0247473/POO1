@@ -29,9 +29,6 @@ class Gerente:
       self.antiguedad= antiguedad
       print("Buenos dias jefe")
       print(Empleado(self.nombre,self.puesto,self.antiguedad))
-    
-    def salario(self, extra):
-       self.extra = extra
        
       
 class Secretaria:
@@ -51,7 +48,6 @@ class Programador:
       print(Empleado(self.nombre,self.puesto,self.antiguedad))
 
 Gerente1 = Gerente("Miguel Perez", "Gerente", 3)
-Extra = Gerente.salario(3254)
 Secretaria1 = Secretaria("Maria Gutierrez", "Secretaria", 4)
 Programa1 = Programador("Enrique Gutierrez", "Programador", 1)
   
